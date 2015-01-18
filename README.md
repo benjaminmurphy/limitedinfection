@@ -17,6 +17,7 @@ Known issues:
 Optimized for classrooms, where there is one teacher, and a large number of students. Rollout speed is inversely proportional to the number of student-teacher relationships.
 
 Example:
+    
     python infection.py --create 5
     python infection.py --link 0 1
     python infection.py --link 0 2
