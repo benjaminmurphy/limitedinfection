@@ -16,12 +16,12 @@ Known issues:
 
 Optimized for classrooms, where there is one teacher, and a large number of students. Rollout speed is inversely proportional to the number of student-teacher relationships.
 
-Example
-```python infection.py --create 5
-python infection.py --link 0 1
-python infection.py --link 0 2
-python infection.py -l 2 3
+Example:
+    python infection.py --create 5
+    python infection.py --link 0 1
+    python infection.py --link 0 2
+    python infection.py -l 2 3
 
-python infection.py --rollout 3 2
-python infection.py --print 0 # Should print (0, 2, 0, " 1 2", "")
-python infection.py --reset```
+    python infection.py --rollout 3 2
+    python infection.py --print 0 # Should print (0, 2, 0, " 1 2", "")
+    python infection.py --reset```
