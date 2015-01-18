@@ -1,3 +1,5 @@
 userbase.db
 test.db
 .DS_Store
+infection.pyc
+test.pyc
