@@ -21,7 +21,6 @@ Example:
     python infection.py --link 0 1
     python infection.py --link 0 2
     python infection.py -l 2 3
-
     python infection.py --rollout 3 2
-    python infection.py --print 0 # Should print (0, 2, 0, " 1 2", "")
-    python infection.py --reset```
+    python infection.py --print 0  ### Should print User 0 on 2, Rep 0, Students  1 2, Coaches
+    python infection.py --reset

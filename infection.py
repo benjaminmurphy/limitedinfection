@@ -153,6 +153,7 @@ def main():
             conn = sqlite3.connect(DBNAME)
             curs = conn.cursor()
             setup(curs)
+            arg = arg[1:]
 
         else:
             conn.commit()
